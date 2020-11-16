@@ -1,3 +1,30 @@
 a {
     text-decoration: none;
   }
+
+  :root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --bottom-contacts-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --accent-color-trasparent: #2196F399;
+    --main-light-color: #FFFFFF;
+    --main-light-gray-color: #F5F4FA;
+    --main-dark-gray-color: #2F303A;
+    --main-black-color: #000000;
+}
+
+.list {
+      list-style: none;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--main-light-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+

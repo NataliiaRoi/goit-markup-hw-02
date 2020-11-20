@@ -1,35 +1,66 @@
-body {
-    background-color: var(--main-light-color);
 
-    color: var(--primary-text-color);
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+body {
+  background-color: var(--main-light-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-  :root {
-    --main-light-color: #FFFFFF;
-    --main-dark-gray-color: #2F303A;
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --accent-color: #2196F3;
-    --main-black-color: #000000;
-    --main-light-gray-color: #F5F4FA;
+:root {
+  --main-light-color: #FFFFFF;
+  --main-dark-gray-color: #2F303A;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196F3;
+  --main-black-color: #000000;
+  --main-light-gray-color: #F5F4FA;
 
-    --bottom-contacts-text-color: rgba(255, 255, 255, 0.6);
-    --accent-color-trasparent: #2196F399;
-    
-    
+  --bottom-contacts-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color-trasparent: #2196F399;
+  }
+
+.site-nav a {
+  color: black
+}
+
+.site-nav a:hover,
+.site-nav a:focus
+{
+  color: #2196F3
+}
+
+.auth-nav a {
+  color: #757575
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: #2196F3
+}
+
+.logo .header-web {
+  color: #2196F3;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-studio {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.38;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-  }
-
-.list {
-      list-style: none;
+  text-decoration: none;
 }
-
-
